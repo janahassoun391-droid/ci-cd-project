@@ -1,6 +1,6 @@
 <?php
 
-$conn = new mysqli("localhost", "root", "password", "recommender");
+$conn = new mysqli("db", "root", "password", "recommender");
 
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
