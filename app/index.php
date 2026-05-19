@@ -37,7 +37,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </form>
 
 <br>
-
+<?php
+if ($resultText != "") {
+    echo "<h3>Result: " . $resultText . "</h3>";
+}
+?>
 
 
 </body>
