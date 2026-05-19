@@ -5,7 +5,8 @@ pipeline {
 
         stage('Clone Project') {
             steps {
-                git 'https://github.com/janahassoun391-droid/ci-cd-project.git'
+             git branch: 'main', url: 'https://github.com/janahassoun391-droid/ci-cd-project.git'            }
+
             }
         }
 
