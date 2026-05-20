@@ -31,7 +31,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </head>
 <body>
 
-<h2>Smart Recommendation System</h2>
+<h2> Recommendation System</h2>
 
 <form method="POST">
     <input type="text" name="input" placeholder="Enter keyword">
