@@ -2,7 +2,6 @@ services:
 
   web:
     build: .
-    container_name: php_app
     ports:
       - "8090:80"
 
@@ -14,7 +13,6 @@ services:
 
   db:
     image: mysql:8.0
-    container_name: mysql_db
     restart: always
 
     environment:
